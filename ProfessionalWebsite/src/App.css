@@ -1,7 +1,8 @@
 #root {
-  max-width: 1280px;
+  width: 1548px;
+  /*max-width: 1280px;*/
   margin: 0 auto;
-  padding: 2rem;
+  /*padding: 2rem;*/
   text-align: center;
 }
 
@@ -47,11 +48,9 @@
 
 body {
   background-color: #023047;
-}
-
-header {
-  position: relative;
-  top: -200px;
+  overflow-y: auto;
+  margin: auto; 
+  height: 100%;
 }
 
 .NavBar {
@@ -60,15 +59,24 @@ header {
 }
 
 .WebTitle {
-  /*position: relative;*/
   color: lightgreen;
-  border-bottom: solid;
-  padding: 4px;
+  /*background-color: green;*/
+  width: 800px;
+  position: relative;
+  left: 350px;
+  padding: 2px;
+}
+
+.WebTitle h1 {
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 .Website-Body {
   background-color: orangered;
   width: 100%;
+  min-height: 100vh;
+  height: 200px;
 }
 
 .Hero-Section {

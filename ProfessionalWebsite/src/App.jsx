@@ -15,7 +15,9 @@ function App() {
   return (
     <>
       <header>
-      <h1 className='WebTitle'>Jimmy Delgado-Hernandez Website</h1>
+        <div className="WebTitle">
+          <h1>Jimmy Delgado-Hernandez Website</h1>
+        </div>
         <div className="NavBar">
           NavBar Section
           <nav>
