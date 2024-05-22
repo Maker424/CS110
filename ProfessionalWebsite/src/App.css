@@ -44,3 +44,53 @@
 .WebTitle {
   font-size: 40px;
 }
+
+body {
+  background-color: #023047;
+}
+
+header {
+  position: relative;
+  top: -200px;
+}
+
+.NavBar {
+  background-color: red;
+  border: 2px;
+}
+
+.WebTitle {
+  /*position: relative;*/
+  color: lightgreen;
+  border-bottom: solid;
+  padding: 4px;
+}
+
+.Website-Body {
+  background-color: orangered;
+  width: 100%;
+}
+
+.Hero-Section {
+  background-color: yellowgreen;
+}
+
+.AboutMe-Section {
+  background-color: gray;
+}
+
+.Education-Section {
+  background-color: black;
+}
+
+.Projects-Section {
+  background-color: purple;
+}
+
+.Interests-Section {
+  background-color: magenta;
+}
+
+.Contact-Section {
+  background-color: orange;
+}
