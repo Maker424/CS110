@@ -81,10 +81,12 @@ body {
 
 .Hero-Section {
   background-color: yellowgreen;
+  height: 300px;
 }
 
 .AboutMe-Section {
   background-color: gray;
+
 }
 
 .Education-Section {
@@ -101,4 +103,17 @@ body {
 
 .Contact-Section {
   background-color: orange;
+  height: 250px;
+}
+
+.Contact-Section img {
+  max-width: 80px;
+  position: relative;
+  left: -40%;
+  border-radius: 2.65rem;
+}
+
+.Contact-Section img:hover {
+  transition-duration: 600ms;
+  transform: scale(1.5);
 }
