@@ -1,7 +1,46 @@
+.AboutMe-Body h2{
+    font-size: 30px;
+    text-decoration: underline;
+    position: relative;
+    top: -15px;
+}
+
+.AboutMe-Body button {
+    background-color: #e76f51;
+    position: relative;
+    top: -20px;
+    left: -170px;
+  }
+
 .Arrow {
     /*background-color: red;*/
     position: relative;
-    left: 100px;
-    top: 65px;
-    font-size: 70px;
+    left: -107px;
+    top: -55px;
+    font-size: 60px;
+}
+
+#LAID {
+    position: relative;
+    top: -30px;
+    right: 450px;
+    max-width: 300px;
+}
+
+#MexicoFlag {
+    position: relative;
+    top: -600px;
+    left: 550px;
+    max-width: 300px;
+}
+
+.Content {
+    position: relative;
+    top: -390px;
+    /*background-color: red;*/
+    color: white;
+    font-size: 20px;
+    max-width: 630px;
+    height: 268px;
+    margin: auto;
 }

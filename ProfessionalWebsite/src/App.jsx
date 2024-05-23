@@ -10,7 +10,7 @@ import Interests from './components/Interests'
 import Contact from './components/Contact'
 import GithubLogo from './assets/Github-Icon.png'
 import LinkedInLogo from './assets/LinkedIn-Icon.png'
-import Resume from './assets/Resume.pdf'
+
 function App() {
   
 
@@ -38,9 +38,6 @@ function App() {
         </div>
         <div className="AboutMe-Section" id="AboutMeID">
           <AboutMe></AboutMe>
-          <a href={Resume} without rel="noopener noreferrer" target="_blank">
-          <button> Resume </button>
-          </a>
         </div>
         <div className="Education-Section" id="EducationID">
           <Education></Education>

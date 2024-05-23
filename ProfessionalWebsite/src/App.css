@@ -99,16 +99,20 @@ body {
 }
 
 .AboutMe-Section {
-  background-color: gray;
-  height: 250px;
+  /*background-color: grey;*/
+  height: 450px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: grey;
+  border-top-style: dashed;
+  border-bottom: grey;
+  border-bottom-style: dashed;
 }
 
-.AboutMe-Section button {
-  background-color: #e76f51;
-}
+
 
 .Education-Section {
-  background-color: black;
+  background-color: navy;
   height: 250px;
 }
 
