@@ -76,7 +76,7 @@ body {
   background-color: orangered;
   width: 100%;
   min-height: 100vh;
-  height: 200px;
+  height: 1700px;
 }
 
 .Hero-Section {
@@ -84,21 +84,28 @@ body {
   height: 300px;
 }
 
+.Hero-Section img {
+  max-width: 150px;
+}
+
 .AboutMe-Section {
   background-color: gray;
-
+  height: 250px;
 }
 
 .Education-Section {
   background-color: black;
+  height: 250px;
 }
 
 .Projects-Section {
   background-color: purple;
+  height: 250px;
 }
 
 .Interests-Section {
   background-color: magenta;
+  height: 250px;
 }
 
 .Contact-Section {

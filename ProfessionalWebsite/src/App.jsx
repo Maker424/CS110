@@ -10,6 +10,7 @@ import Interests from './components/Interests'
 import Contact from './components/Contact'
 import GithubLogo from './assets/Github-Icon.png'
 import LinkedInLogo from './assets/LinkedIn-Icon.png'
+import SelfImage from './assets/self-image.jpg'
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
       <div className="Website-Body">
         <div className="Hero-Section">
           <Hero></Hero>
+          <img src={SelfImage} alt="Selfie photo of myself" />
         </div>
         <div className="AboutMe-Section">
           <AboutMe></AboutMe>
