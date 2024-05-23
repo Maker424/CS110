@@ -92,6 +92,10 @@ body {
 .Hero-Section {
   /*background-color: yellowgreen;*/
   height: 300px;
+  border-top: grey;
+  border-top-style: dashed;
+  border-bottom: grey;
+  border-bottom-style: dashed;
 }
 
 .AboutMe-Section {
