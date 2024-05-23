@@ -1,0 +1,29 @@
+h3 {
+    text-decoration: underline;
+}
+
+.Academic-History {
+    text-align: center;
+    position: relative;
+    right: -400px;
+}
+
+.Academic-History ul {
+    text-align: left;
+}
+
+.Academic-History li {
+    position: relative;
+    left: 600px;
+}
+
+.Skills-Section {
+   text-align: left;
+   margin-left: 1%;
+   position: relative;
+   top: -100px;
+}
+
+.Skills-Section ul  {
+    text-align: left;
+}

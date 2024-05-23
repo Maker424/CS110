@@ -1,0 +1,11 @@
+.Contact-Body img {
+    max-width: 80px;
+    border-radius: 2.65rem;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  
+  .Contact-Body img:hover {
+    transition-duration: 600ms;
+    transform: scale(1.5);
+  }

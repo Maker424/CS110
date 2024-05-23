@@ -86,7 +86,7 @@ body {
   width: 100%;
   margin-top: 5%;
   min-height: 100vh;
-  height: 1700px;
+  height: 2247px;
 }
 
 .Hero-Section {
@@ -113,7 +113,7 @@ body {
 
 .Education-Section {
   background-color: navy;
-  height: 250px;
+  height: 400px;
 }
 
 .Projects-Section {
@@ -123,22 +123,16 @@ body {
 
 .Interests-Section {
   background-color: magenta;
-  height: 250px;
+  height: 500px;
 }
 
 .Contact-Section {
-  background-color: orange;
+  /*background-color: orange;*/
   height: 250px;
-}
-
-.Contact-Section img {
-  max-width: 80px;
-  position: relative;
-  left: -40%;
-  border-radius: 2.65rem;
-}
-
-.Contact-Section img:hover {
-  transition-duration: 600ms;
-  transform: scale(1.5);
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: grey;
+  border-top-style: dashed;
+  border-bottom: grey;
+  border-bottom-style: dashed;
 }
