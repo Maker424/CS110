@@ -10,8 +10,7 @@ import Interests from './components/Interests'
 import Contact from './components/Contact'
 import GithubLogo from './assets/Github-Icon.png'
 import LinkedInLogo from './assets/LinkedIn-Icon.png'
-import SelfImage from './assets/self-image.jpg'
-
+import Resume from './assets/Resume.pdf'
 function App() {
   
 
@@ -22,36 +21,37 @@ function App() {
           <h1>Jimmy Delgado-Hernandez Website</h1>
         </div>
         <div className="NavBar">
-          NavBar Section
           <nav>
-            <button>Hero</button>
-            <button>About Me</button>
-            <button>Education</button>
-            <button>Projects</button>
-            <button>Interests</button>
-            <button>Contact</button>
+            <a href="#HeroID"><button>Hero</button></a>
+            <a href="#AboutMeID"><button>About Me</button></a>
+            <a href="#EducationID"><button>Education</button></a>
+            <a href="#ProjectsID"><button>Projects</button></a>
+            <a href="#InterestsID"><button>Interests</button></a>
+            <a href="#ContactID"><button>Contact</button></a>
           </nav>
         </div>
       </header>
       
       <div className="Website-Body">
-        <div className="Hero-Section">
+        <div className="Hero-Section" id="HeroID">
           <Hero></Hero>
-          <img src={SelfImage} alt="Selfie photo of myself" />
         </div>
-        <div className="AboutMe-Section">
+        <div className="AboutMe-Section" id="AboutMeID">
           <AboutMe></AboutMe>
+          <a href={Resume} without rel="noopener noreferrer" target="_blank">
+          <button> Resume </button>
+          </a>
         </div>
-        <div className="Education-Section">
+        <div className="Education-Section" id="EducationID">
           <Education></Education>
         </div>
-        <div className="Projects-Section">
+        <div className="Projects-Section" id="ProjectsID">
           <Projects></Projects>
         </div>
-        <div className="Interests-Section">
+        <div className="Interests-Section" id="InterestsID">
           <Interests></Interests>
         </div>
-        <div className="Contact-Section">
+        <div className="Contact-Section" id="ContactID">
           <Contact></Contact>  
           <a href="https://github.com/Maker424"> <img src={GithubLogo} alt="The Github Logo that leads to my personal Github Profile"/> </a>
           <a href="https://www.linkedin.com/in/jimmy-delgado-hernandez-5889911ba"> <img src={LinkedInLogo} alt="The LinkedIn Logo That leads to LinkedIn homepage"/> </a>
@@ -61,4 +61,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

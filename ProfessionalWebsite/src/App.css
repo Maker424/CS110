@@ -54,8 +54,17 @@ body {
 }
 
 .NavBar {
-  background-color: red;
+  /*background-color: red;*/
   border: 2px;
+  height: 50px;
+}
+
+.NavBar button {
+  margin-top: 0.2%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  max-width: 200px;
+  background-color: #e76f51;
 }
 
 .WebTitle {
@@ -73,24 +82,25 @@ body {
 }
 
 .Website-Body {
-  background-color: orangered;
+  /*background-color: orangered;*/
   width: 100%;
+  margin-top: 5%;
   min-height: 100vh;
   height: 1700px;
 }
 
 .Hero-Section {
-  background-color: yellowgreen;
+  /*background-color: yellowgreen;*/
   height: 300px;
-}
-
-.Hero-Section img {
-  max-width: 150px;
 }
 
 .AboutMe-Section {
   background-color: gray;
   height: 250px;
+}
+
+.AboutMe-Section button {
+  background-color: #e76f51;
 }
 
 .Education-Section {
