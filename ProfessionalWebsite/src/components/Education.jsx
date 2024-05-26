@@ -53,6 +53,7 @@ const Education = () => {
         <h3>UCR Relevant Coursework: </h3>
         <ul>
           <li>CS180: <i>Introduction to software Engineering</i></li>
+          <li>CS166: <i>Database Management Systems</i></li>
           <li>CS142: <i>Algorithm Engineering</i></li>
           <ul>
             <a href="https://www.cs.ucr.edu/~yihans/teaching/142/W24/index.html"> <li> <i>Course Homepage link</i></li> </a>

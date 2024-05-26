@@ -94,9 +94,21 @@ body {
   border-bottom-style: dashed;
 }
 
+.Education-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
 .Projects-Section {
-  background-color: purple;
-  height: 250px;
+  /*background-color: purple;*/
+  height: 390px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: grey;
+  border-top-style: dashed;
+  border-bottom: grey;
+  border-bottom-style: dashed;
 }
 
 .Interests-Section {
