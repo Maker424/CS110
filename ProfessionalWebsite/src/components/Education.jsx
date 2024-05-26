@@ -1,5 +1,7 @@
 import React from 'react'
 import './Education.css'
+import Cplusplus from '/src/assets/C++.png'
+import SQALogo from '/src/assets/SQA.png'
 
 const Education = () => {    
   return (
@@ -32,6 +34,23 @@ const Education = () => {
           </li>
         </ul>
       </div>
+      <img src={Cplusplus} alt="C++ logo" id="CplusplusID" />
+      <a href="https://www.synergyquantumacademy.org/"> <img src={SQALogo} alt="My SQA highschool logo" id="SQAID"/> </a>
+
+      <div className="Highschool-coursework">
+        <h3>Highschool Relevant Coursework: </h3>
+        <ul>
+          <li>Graphic Design</li>
+        </ul>
+      </div>
+      <div className="UCR-coursework">
+        <h3>UCR Relevant Coursework: </h3>
+        <ul>
+          <li>CS180: <i>Introduction to software Engineering</i></li>
+          <li>CS142: <i>Algorithm Engineering</i></li>
+        </ul>
+      </div>
+
     </div>                
   )
 }

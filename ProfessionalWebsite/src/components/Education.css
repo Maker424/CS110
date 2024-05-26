@@ -27,3 +27,43 @@ h3 {
 .Skills-Section ul  {
     text-align: left;
 }
+
+#CplusplusID {
+    position: relative;
+    top: -400px;
+    left: -400px;
+    max-width: 80px;
+    border-radius: 1.5rem;
+}
+#SQAID {
+    position: relative;
+    top: -230px;
+    left: 230px;
+    max-width: 150px;
+    border-radius: 1.5rem;
+}
+
+#SQAID:hover {
+    transition-duration: 600ms;
+    transform: scale(1.5);
+}
+
+.Highschool-coursework {
+    /*background-color: red;*/
+    position: relative;
+    top: -370px;
+    left: 1160px;
+    width: 300px;
+    height:80px;
+    text-align: left;
+}
+
+.UCR-coursework {
+    background-color: orangered;
+    position: relative;
+    top: -570px;
+    left: 550px;
+    width: 300px;
+    height: 120px;
+    text-align: left;
+}
