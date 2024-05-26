@@ -1,11 +1,16 @@
+h2 {
+    font-size: 26px;
+}
 h3 {
     text-decoration: underline;
 }
 
 .Academic-History {
-    text-align: center;
+    /*background-color: green;*/
     position: relative;
-    right: -400px;
+    left: 430px;
+    max-width: 550px;
+    text-align: left;
 }
 
 .Academic-History ul {
@@ -14,7 +19,6 @@ h3 {
 
 .Academic-History li {
     position: relative;
-    left: 600px;
 }
 
 .Skills-Section {
@@ -30,15 +34,39 @@ h3 {
 
 #CplusplusID {
     position: relative;
-    top: -400px;
-    left: -400px;
+    top: -390px;
+    left: -250px;
     max-width: 80px;
     border-radius: 1.5rem;
 }
+
+#GitID{
+    max-width: 80px;
+    position: relative;
+    left: -570px;
+    top: -300px;
+    border-radius: 2.65rem;
+}
+
+#CSSID {
+    max-width: 80px;
+    position: relative;
+    top: -180px;
+    left: -580px;
+}
+
+#SQLID {
+    max-width: 150px;
+    position: relative;
+    top: -100px;
+    left: -600px;
+    border-radius: 1.2rem;
+}
+
 #SQAID {
     position: relative;
-    top: -230px;
-    left: 230px;
+    top: -260px;
+    left: 600px;
     max-width: 150px;
     border-radius: 1.5rem;
 }
@@ -51,19 +79,19 @@ h3 {
 .Highschool-coursework {
     /*background-color: red;*/
     position: relative;
-    top: -370px;
-    left: 1160px;
+    top: -500px;
+    left: 1180px;
     width: 300px;
     height:80px;
     text-align: left;
 }
 
 .UCR-coursework {
-    background-color: orangered;
+    /*background-color: orangered;*/
     position: relative;
-    top: -570px;
+    top: -470px;
     left: 550px;
-    width: 300px;
+    max-width: 350px;
     height: 120px;
     text-align: left;
 }
