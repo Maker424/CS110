@@ -114,6 +114,12 @@ body {
 .Interests-Section {
   background-color: magenta;
   height: 500px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: grey;
+  border-top-style: dashed;
+  border-bottom: grey;
+  border-bottom-style: dashed;
 }
 
 .Contact-Section {

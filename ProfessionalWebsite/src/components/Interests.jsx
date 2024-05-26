@@ -1,9 +1,21 @@
 import React from 'react'
+import './Interests.css'
 
 const Interests = () => {    
   return (
     <div className="Interests-Body">
-        <p>Interests PAGE</p>
+        <h2>Extracurriculars/Interests</h2>
+        <div className="Voluntereering">
+          <div className="FoodBank">
+            <p>I volunteered at a food bank in Los Angeles</p>
+          </div>
+        </div>
+        <div className="Anime">
+
+        </div>
+        <div className="Sports">
+
+        </div>
     </div>                
   )
 }
