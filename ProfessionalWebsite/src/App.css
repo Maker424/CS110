@@ -58,7 +58,7 @@ body {
   width: 100%;
   margin-top: 5%;
   min-height: 100vh;
-  height: 2500px;
+  height: 2700px;
 }
 
 .Hero-Section {
@@ -68,6 +68,12 @@ body {
   border-top-style: dashed;
   border-bottom: grey;
   border-bottom-style: dashed;
+}
+
+.Hero-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
 .AboutMe-Section {
@@ -81,7 +87,11 @@ body {
   border-bottom-style: dashed;
 }
 
-
+.AboutMe-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
 
 .Education-Section {
   /*background-color: navy;*/
@@ -111,8 +121,14 @@ body {
   border-bottom-style: dashed;
 }
 
+.Projects-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
 .Interests-Section {
-  background-color: magenta;
+  /*background-color: magenta; */
   height: 500px;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -122,13 +138,25 @@ body {
   border-bottom-style: dashed;
 }
 
+.Interests-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
 .Contact-Section {
   /*background-color: orange;*/
-  height: 250px;
+  height: 400px;
   margin-top: 1%;
   margin-bottom: 1%;
   border-top: grey;
   border-top-style: dashed;
   border-bottom: grey;
   border-bottom-style: dashed;
+}
+
+.Contact-Section:hover {
+  background-color: navy;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }

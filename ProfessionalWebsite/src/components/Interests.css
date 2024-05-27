@@ -1,0 +1,33 @@
+.Interests-Body {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4s ease-out, transform 4s ease-out;
+  }
+  
+.Interests-Body.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.Volunteering {
+    background-color: orange;
+    max-width: 400px;
+    position: relative;
+    left: 400px;
+}
+
+.Volunteering img {
+    max-width: 80px;
+}
+
+.Anime {
+    background-color: red;
+    max-width: 400px;
+    position: relative;
+    left: 400px;
+}
+
+.Anime img {
+    max-width: 80px;
+
+}

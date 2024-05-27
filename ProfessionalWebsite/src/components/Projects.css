@@ -1,11 +1,11 @@
 .CS100 {
-    background-color: #ffb703;
-    color: #3a0ca3;
+    background-color: black;
+    color: white;
     font-weight: bold;
     max-width: 300px;
     height: 300px;
     border-radius: 1.2rem;
-    border-color: brown;
+    border-color: white;
     border-style: solid;
     padding: 2px;
     position: relative;
@@ -14,13 +14,13 @@
 }
 
 .CS152 {
-    background-color: #ffb703;
-    color: #3a0ca3;
+    background-color: black;
+    color: white;
     font-weight: bold;
     max-width: 300px;
     height: 300px;
     border-radius: 1.2rem;
-    border-color: brown;
+    border-color: white;
     border-style: solid;
     padding: 2px;
     position: relative;
