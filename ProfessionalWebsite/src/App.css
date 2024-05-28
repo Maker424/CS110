@@ -58,7 +58,7 @@ body {
   width: 100%;
   margin-top: 5%;
   min-height: 100vh;
-  height: 2700px;
+  height: 2900px;
 }
 
 .Hero-Section {
@@ -129,7 +129,7 @@ body {
 
 .Interests-Section {
   /*background-color: magenta; */
-  height: 500px;
+  height: 700px;
   margin-top: 1%;
   margin-bottom: 1%;
   border-top: grey;

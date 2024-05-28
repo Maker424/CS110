@@ -3,11 +3,23 @@
     border-radius: 2.65rem;
     margin-left: 4%;
     margin-right: 4%;
-    position: relative;
-    top: 50px;
+    margin-top: 4%;
   }
   
   .Contact-Body img:hover {
     transition-duration: 600ms;
     transform: scale(1.5);
+  }
+
+  .Images {
+    position: relative;
+    background-color: rgb(90, 84, 84);
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 550px;
+    margin-left: 1%;
+    border-radius: 1.2rem;
+    border-color: white;
+    border-style: solid;
   }

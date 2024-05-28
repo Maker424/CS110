@@ -18,6 +18,13 @@ const Projects = () => {
           </p>
           <label> Tools: C, Bison </label>
         </div>
+        <div className="CS165">
+          <h3>Cracking Password</h3>
+          <p>Developed a python program to crack a 6 character length password that only contains lowercase letters
+            given a md5 hash and salt. 
+          </p>
+          <label> Tools: Python </label>
+        </div>
     </div>                
   )
 }

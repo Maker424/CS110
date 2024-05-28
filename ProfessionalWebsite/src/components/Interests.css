@@ -1,7 +1,13 @@
+h2 {
+    text-decoration: underline;
+}
+
 .Interests-Body {
+    /*background-color: red; */
+    height: 700px;
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 4s ease-out, transform 4s ease-out;
+    transition: opacity 3s ease-out, transform 3s ease-out;
   }
   
 .Interests-Body.visible {
@@ -10,24 +16,120 @@
 }
 
 .Volunteering {
-    background-color: orange;
+    background-color: black;
+    color: white;
+    font-weight: bold;
     max-width: 400px;
+    height: 400px;
     position: relative;
-    left: 400px;
+    left: 30px;
+    top: 10px;
+    border-radius: 1.2rem;
+    border-color: white;
+    border-style: solid;
+    padding: 2px;
 }
 
 .Volunteering img {
-    max-width: 80px;
+    max-width: 350px;
+}
+
+.Interests {
+    background-color: black;
+    max-width: 1000px;
+    height: 670px;
+    position: relative;
+    left: 500px;
+    top: -400px;
+    border-radius: 1.2rem;
+    border-color: white;
+    border-style: solid;
+    padding: 2px;
 }
 
 .Anime {
-    background-color: red;
+    background-color: rgb(90, 84, 84);
     max-width: 400px;
     position: relative;
-    left: 400px;
+    top: -10px;
+    margin-left: 1%;
+    border-radius: 1.2rem;
+    border-color: white;
+    border-style: solid;
 }
 
 .Anime img {
     max-width: 80px;
+}
 
+.Sports {
+    background-color: rgb(90, 84, 84);
+    width: 520px;
+    height: 570px;
+    position: relative;
+    top: -380px;
+    left: 450px;
+    margin-left: 1%;
+    border-radius: 1.2rem;
+    border-color: white;
+    border-style: solid;
+}
+
+.Sports ol {
+    text-align: left;
+}
+
+#rank {
+    position: relative;
+    left: -120px;
+}
+
+.SportsImages img {
+    max-width: 50px;
+    border-radius: 3rem;
+}
+
+#SBall {
+    position: relative;
+    top: -150px;
+    left: -30px;
+    border-radius: 4rem;
+}
+
+#FBall {
+    position: relative;
+    top: -120px;
+    left: -10px;
+
+}
+
+#BBall {
+    position: relative;
+    top: -105px;
+    left: -140px;
+    max-width: 25px;
+}
+
+#HoopBall {
+    position: relative;
+    top: -70px;
+    left: -120px;
+    max-width: 35px;
+}
+
+#Puck {
+    position: relative;
+    top: -45px;
+    left: -210px;
+    max-width: 45px;
+}
+
+.SportsTeams {
+    position: relative;
+    top: -30px;
+}
+
+.SportsTeams label {
+    position: relative;
+    left: -85px;
 }
